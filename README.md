@@ -50,9 +50,6 @@
 ```java
  bgone.animate().scaleX(2).scaleY(2).setDuration(5000).start();
 
-```
-
-```java
         btnjoin.startAnimation(frombottom);
 
         textView2.startAnimation(fromtop);
@@ -62,21 +59,7 @@
         editText3.startAnimation(fromtop);
         editText7.startAnimation(fromtop);
  ```             
-### SecondAtivity For View Data :writing_hand:
 
-```java
-Cursor cursor = db.alldata(); 
-```
-
-
-### LoginActivity for Login :relaxed:
-
-#### Get Values one by one and Compare IF Condition :writing_hand:
-```java
-for (int i=0 ; i<cursor.getCount();i++)
- 
- if ((ema.equals(cursor.getString(2).toString())) && (pass.equals(cursor.getString(3).toString())))
-```
 
 ### Author
 
